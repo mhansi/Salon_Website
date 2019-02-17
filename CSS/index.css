@@ -1,0 +1,297 @@
+.indexHeader{
+    background-image: url("../Resources/home.jpg");
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.indexHeaderText{
+    text-align: center;
+    vertical-align: middle;
+}
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: o;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.navigation li{
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 4.0%;
+    margin-right: 4.0%;
+    font-family: fantasy;
+    font-weight: bold;
+   
+}
+.navigation li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:link{
+    color: black;
+    
+}
+.navigation a:hover{
+    color: darkgrey;
+    transition: all 0.3s ease-in-out;
+}
+.homep{
+    text-align: center;
+    text-indent: 10px;
+}
+.homeb{
+    margin-left: 25%;
+    align-content: center;
+    border: 2px solid grey;
+    padding: 10px;
+    font-weight: bold;
+    background-color: weight;
+    
+}
+.homeb:hover{
+    background-color: darkgray;
+}
+.homed11{
+    background-color: rgb(255,255,255,0.75); 
+    background-position: center;
+    margin-top: 40px; 
+    margin-left: 450px;
+    padding: 50px;
+    width: 25%; 
+    height: 200px;
+}
+.g{
+    width: 19%;
+}
+.g:hover{
+   transform: scale(1.5);
+    
+}
+.galla:link{
+    color: white;
+}
+.galla:hover{
+    background-color: darkgray;
+}
+.galla{
+    background-color:black; 
+    color:white; 
+    padding: 15px;
+
+}
+.footer{
+    color: white;
+    padding: 100px 38% 100px; 
+    text-align: center; 
+    font-family: salon; 
+    font-weight: bold;
+  
+}
+@font-face{
+    font-family: salon;
+    src: url(../Resources/font/FFF_Tusj.ttf);
+}
+.salon{
+    color:black;
+    letter-spacing: 8px;
+    text-align: center; 
+    font-family: salon; 
+    font-weight: bold;
+    font-size: 100px;
+}
+.navigations{
+    list-style-type: none;
+    margin: 2%;
+    width: 92%;
+    background-color: white;
+}
+.navigations li{
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 2.2%;
+    margin-right: 2.2%;
+    font-family: monospace;
+
+}
+.navigations li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+}
+.navigations a:link{
+    color: black;
+}
+.navigations a:hover{
+    color: white;
+    background-color: black;
+}
+.servt table{
+    font-size: 20px;
+    padding: 15px;
+   border-bottom: 1px solid black;
+}
+td{
+    
+    padding-bottom: 30px;
+}
+.servtd{
+    padding-left: 80%;
+    font-weight: bold;
+}
+caption{
+    font-size: 100%;
+    font-weight: bold;
+}
+.teamimg{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    padding: 35px;
+}
+teamspan{
+    color: darkgray;
+    
+}
+.appoinment{
+    background-image: url(../Resources/appointment.jpg);
+    height: 700px;
+    width: 100%;
+    
+}
+.appoinment2{
+    background-color: rgba(0,0,0,0.8);
+    margin-right:10%;
+    margin-left: 10%;
+    margin-top:  10%;
+    padding-left: 20%;
+   
+    padding-top: 3%;
+    height: 600px;
+    width: 60%;
+    color: white;
+}
+.appoinment2 label{
+    font-size: 30px;
+    font-weight: bold;
+}
+.appoinment2 input{
+   width: 50%;
+   height: 30px
+}
+.appoinment2 button{
+     margin-left: 25%; 
+     height:35px;
+     width: 20%;
+     text-align: center;
+     background-color: rgba(0,0,0,0.8);
+     border-color: white;
+     color: white;
+}
+.appoinment2 button:hover{
+    background-color: grey;
+}
+.email{
+     text-decoration: none;
+     color: black
+}
+.email:hover{
+    color: grey;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 82.5%;
+  text-align: left;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
